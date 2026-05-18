@@ -1,0 +1,30 @@
+# Gradle and Kotlin build output
+.gradle/
+**/build/
+out/
+
+# Compiled artifacts
+*.class
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Local machine configuration
+local.properties
+*.local
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Generated documentation and reports
+docs/*.html
+docs/*.pdf
+**/reports/
+**/test-results/
