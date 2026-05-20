@@ -30,7 +30,13 @@ compose.desktop {
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)
             packageName = "KiiStability"
-            packageVersion = "1.0.0"
+            packageVersion = "1.0.1"
+
+            windows {
+                shortcut = true
+                menu = true
+                menuGroup = "KiiStability"
+            }
         }
     }
 }
